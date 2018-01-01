@@ -1,0 +1,37 @@
+* Identify each person in the frame
+** Correlate them to previous frames
+** Identify the poses / hand placement of each person (where is each extremity?)
+** Guess what move is being attempted / in process of being attempted based on the position of each person
+
+Current Research:
+* Motion Tracking / Human Action Classification
+** http://crcv.ucf.edu/data/UCF50.php
+   UCF50 is an action recognition data set with 50 action categories, consisting of realistic videos taken from youtube. This data set is an extension of YouTube Action data set (UCF11) which has 11 action categories.
+*** TODO Further research
+    Template based methods [1], modeling the dy- namics of human motion using finite state models [6] or hidden Markov models [21], and Bag of Features models [10, 4, 11, 22] (BOF)
+
+    Bobick, A.F., Davis, J.W.: The recognition of human movement using temporal templates. In: IEEE Trans- actions on Pattern Analysis and Machine Intelligence, vol. 23, pp. 257–267 (2001)
+**** TODO What is a temporal template?
+     www.cse.ohio-state.edu/~jwdavis/Publications/pami01.pdf
+**** DONE Hidden Markov Model?
+     CLOSED: [2018-01-01 Mon 16:20]
+     https://en.wikipedia.org/wiki/Hidden_Markov_model#A_concrete_example
+
+** http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/
+cbcl.mit.edu/publications/ps/Kuehne_etal_iccv11.pdf
+HMDB: A Large Video Database for Human Motion Recognition
+
+* https://arxiv.org/abs/1702.00824
+  YouTube-BoundingBoxes: A Large High-Precision Human-Annotated Data Set for Object Detection in Video
+
+* http://cs.stanford.edu/people/karpathy/deepvideo/
+  Large-scale Video Classification with Convolutional Neural Networks
+
+* https://arxiv.org/abs/1605.06336
+  Unsupervised Feature Extraction by Time-Contrastive Learning and Nonlinear ICA
+
+* https://docs.opencv.org/3.3.1/d7/d8b/tutorial_py_lucas_kanade.html
+  A method for tracking object movement from video
+
+* https://github.com/msracver/Deep-Feature-Flow
+  Object detection in videos
