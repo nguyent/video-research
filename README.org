@@ -1,3 +1,6 @@
+* TODO
+  Figure out the proper way to format org mode files to look pretty on Github
+
 * Identify each person in the frame
 ** Correlate them to previous frames
 ** Identify the poses / hand placement of each person (where is each extremity?)
